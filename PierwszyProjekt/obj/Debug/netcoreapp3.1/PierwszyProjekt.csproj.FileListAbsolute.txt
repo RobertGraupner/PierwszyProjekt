@@ -1,0 +1,12 @@
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/bin/Debug/netcoreapp3.1/PierwszyProjekt.deps.json
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/bin/Debug/netcoreapp3.1/PierwszyProjekt.runtimeconfig.json
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/bin/Debug/netcoreapp3.1/PierwszyProjekt.runtimeconfig.dev.json
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/bin/Debug/netcoreapp3.1/PierwszyProjekt.dll
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/bin/Debug/netcoreapp3.1/PierwszyProjekt.pdb
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.csprojAssemblyReference.cache
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.AssemblyInfoInputs.cache
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.AssemblyInfo.cs
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.csproj.CoreCompileInputs.cache
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.dll
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.pdb
+/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/obj/Debug/netcoreapp3.1/PierwszyProjekt.genruntimeconfig.cache
