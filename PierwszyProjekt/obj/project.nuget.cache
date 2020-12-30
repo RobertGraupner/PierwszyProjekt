@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUyJBHYL+751D29BfnYrzZcSwU3eM9BlMfGDQ7/zMfQlbPRpcaYGDDEZSyIiqLEaYi10CKmdWtp/WCPSmlpzkg==",
+  "dgSpecHash": "qOIhr0UT5U0YnQLg6XIpcjloXJI9DEKZai5N4L7bhQR0IudTOdFRuWGEaP9H6t5KfY5eZdiACUMpCT7F0P77BQ==",
   "success": true,
   "projectFilePath": "/Users/robert/Projects_C#/PierwszyProjekt/PierwszyProjekt/PierwszyProjekt.csproj",
-  "expectedPackageFiles": [
-    "/Users/robert/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,50 +7,80 @@ namespace PierwszyProjekt
     {
          public static void Main()
         {
+            Console.WriteLine("Enter the number of numbers");
+            int numberOfNumbers = ReadNumber();
+            var readNumbers = ReadManyNumbers(numberOfNumbers);
+        
 
-            bool ifNumber1 = int.TryParse(Console.ReadLine(), out int number1);
-            
-            if (!ifNumber1)
+           int sum = 0;
+
+            for (int i = 0; i < readNumbers.Length; i++)
             {
-                Console.WriteLine("You must enter a number!");
-                number1 = int.Parse(Console.ReadLine());
+                sum += readNumbers[i];
             }
+            Console.WriteLine("Adding: " + sum); 
+        }
 
-            bool ifNumber2 = int.TryParse(Console.ReadLine(), out int number2);
+        private static int [] ReadManyNumbers(int numbersCount)
+        {
+            int[] readNumbers = new int[numbersCount];
 
-            if (!ifNumber2)
+            for(int i =0; i < numbersCount; i++)
             {
-                Console.WriteLine("You must enter a number!");
-                number2 = int.Parse(Console.ReadLine());
+                readNumbers[i] = ReadNumber();
             }
+            return readNumbers;
 
-            static void SubFunction(int number1 , int number2)
-            {
-                Console.WriteLine("Substraction: " + (number1 - number2));
-            }
-
-            static void AddFunction(int number1, int number2)
-            {
-                Console.WriteLine("Adding: " + (number1 + number2));
-            }
-
-            static void MultiFunction(int number1, int number2)
-            {
-                Console.WriteLine("Multiply: " + (number1 * number2));
-            }
-
-            static void DivFunction(int number1, int number2)
-            {
-                Console.WriteLine("Dividing: " + (number1 / number2));
-            }
-
-            SubFunction(number1 , number2);
-            AddFunction(number1 , number2);
-            MultiFunction(number1 , number2);
-            DivFunction(number1 , number2);
           
         }
+
+
+        private static int ReadNumber()
+        {
+            bool isNumberEntered = false;
+            int number;
+
+            do
+            {
+                Console.WriteLine("Enter the number");
+                isNumberEntered = int.TryParse(Console.ReadLine(), out number);
+            }
+            while (!isNumberEntered);
+            return number;
+            
+        }
+
+
+       
+
+
+        /* static void SubFunction(int number1 , int number2)
+         {
+             Console.WriteLine("Substraction: " + (number1 - number2));
+         }
+
+         static void AddFunction(int number1, int number2)
+         {
+             Console.WriteLine("Adding: " + (number1 + number2));
+         }
+
+         static void MultiFunction(int number1, int number2)
+         {
+             Console.WriteLine("Multiply: " + (number1 * number2));
+         }
+
+         static void DivFunction(int number1, int number2)
+         {
+             Console.WriteLine("Dividing: " + (number1 / number2));
+         }
+
+         SubFunction(number1 , number2);
+         AddFunction(number1 , number2);
+         MultiFunction(number1 , number2);
+         DivFunction(number1 , number2);*/
+
     }
+    
 
     
 }
